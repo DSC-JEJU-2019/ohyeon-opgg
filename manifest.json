@@ -1,0 +1,24 @@
+{
+    "name": "op.gg조작단",
+    "version": "1.0",
+    "description": "친구의 티어를 아이언으로 바꿔드립니다.",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": [
+                "https://www.op.gg/summoner/userName=*",
+                "http://www.op.gg/summoner/userName=*"
+            ],
+            "js": ["script.js"]
+        }
+    ],
+    "browser_action": {
+        "default_popup": "index.html"
+    },
+    "icons": {
+        "16": "iron_1.png",
+        "32": "iron_1.png",
+        "48": "iron_1.png",
+        "128": "iron_1.png"
+    }
+  }
