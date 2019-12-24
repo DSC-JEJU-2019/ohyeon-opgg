@@ -1,0 +1,31 @@
+.wrap {
+    width: 240px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;}
+    .wrap > div {
+        flex: 1;
+    }
+    .wrap > p {
+        align-self: center;
+        font-size: 1.2em;
+    }
+    .wrap > .image {
+        background-image: url(iron_1.png);
+        background-size: contain;
+        background-position: 50%;
+        background-repeat: no-repeat;
+    }
+    .wrap > .button-wrap {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;}
+        .wrap > .button-wrap > button {
+            border: 0;
+            background-color: #ccc;
+            border-radius: 8px;
+            margin: 5px 0;
+            padding: 8px;
+        }
+
