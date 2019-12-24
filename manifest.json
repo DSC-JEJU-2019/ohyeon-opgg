@@ -12,6 +12,7 @@
             "js": ["script.js"]
         }
     ],
+    "permissions": ["activeTab"],
     "browser_action": {
         "default_popup": "index.html"
     },
